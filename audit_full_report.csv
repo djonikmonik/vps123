@@ -1,0 +1,16 @@
+Source URL,Type,Status Code,Status,Error,Credentials
+https://example.com/wp-admin,Critical Admin,404,Filtered,,admin:password123
+https://192.168.1.1:8080,Infrastructure,N/A,Connection Error,"HTTPSConnectionPool(host='192.168.1.1', port=8080): Max retries exceeded with url: / (Caused by NewConnectionError(""HTTP",root:toor
+https://mysite.com/login,Critical Admin,N/A,Connection Error,"HTTPSConnectionPool(host='mysite.com', port=443): Max retries exceeded with url: /login (Caused by NewConnectionError(""H",user1:pass1
+https://com.example.app,General,N/A,Connection Error,"HTTPSConnectionPool(host='com.example.app', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""",testuser:testpass
+https://dropbox.com/home,Cloud/Storage,200,Active,,john:secret
+https://drive.google.com/drive,Cloud/Storage,200,Active,,alice:mypass
+https://s3.amazonaws.com/mybucket,Cloud/Storage,301,Filtered,,awsuser:awskey
+https://10.0.0.5:443,Infrastructure,N/A,Connection Error,"HTTPSConnectionPool(host='10.0.0.5', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(""HTTPSCon",netadmin:netpass
+https://company.com/phpmyadmin,Critical Admin,404,Filtered,,dbadmin:dbpass
+https://live.com/signin,Critical Admin,200,Active,,liveuser:livepass
+https://192.168.0.100:3306,Infrastructure,N/A,Connection Error,"HTTPSConnectionPool(host='192.168.0.100', port=3306): Max retries exceeded with url: / (Caused by NewConnectionError(""HT",mysql:mysqlpass
+https://internal.corp.net/admin,Critical Admin,N/A,Connection Error,"HTTPSConnectionPool(host='internal.corp.net', port=443): Max retries exceeded with url: /admin (Caused by NameResolution",superadmin:sup3r
+https://100.24.55.10:8443,Infrastructure,N/A,Timeout (connect),ConnectTimeout,infrauser:infrakey
+https://webapp.io/dashboard,General,404,Filtered,,regular:user123
+https://mail.google.com,Cloud/Storage,200,Active,,gmailuser:gmailpass

@@ -1,0 +1,15 @@
+https://example.com/wp-admin:admin:password123
+https://192.168.1.1:8080:root:toor
+https://mysite.com/login:user1:pass1
+android://com.example.app:testuser:testpass
+https://dropbox.com/home:john:secret
+https://drive.google.com/drive:alice:mypass
+https://s3.amazonaws.com/mybucket:awsuser:awskey
+https://10.0.0.5:443:netadmin:netpass
+https://company.com/phpmyadmin:dbadmin:dbpass
+https://live.com/signin:liveuser:livepass
+https://192.168.0.100:3306:mysql:mysqlpass
+https://internal.corp.net/admin:superadmin:sup3r
+https://100.24.55.10:8443:infrauser:infrakey
+https://webapp.io/dashboard:regular:user123
+https://mail.google.com:gmailuser:gmailpass

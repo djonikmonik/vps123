@@ -1,0 +1,5 @@
+Source URL,Type,Status Code,Credentials
+https://live.com/signin,Critical Admin,200,liveuser:livepass
+https://mail.google.com,Cloud/Storage,200,gmailuser:gmailpass
+https://drive.google.com/drive,Cloud/Storage,200,alice:mypass
+https://dropbox.com/home,Cloud/Storage,200,john:secret
